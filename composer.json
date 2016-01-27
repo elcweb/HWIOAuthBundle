@@ -89,16 +89,12 @@
 
     "require": {
         "php":                          ">=5.3.3",
-        "symfony/framework-bundle":     "~2.3",
-        "symfony/security-bundle":      "~2.3",
-        "symfony/options-resolver":     "~2.3",
-        "symfony/form":                 "~2.3",
-        "symfony/yaml":                 "~2.3",
+        "symfony/framework-bundle":     ">=2.3",
+        "symfony/security-bundle":      ">=2.3",
+        "symfony/options-resolver":     ">=2.3",
+        "symfony/form":                 ">=2.3",
+        "symfony/yaml":                 ">=2.3",
         "kriswallsmith/buzz":           "~0.13"
-    },
-
-    "conflict": {
-        "twig/twig":                    "<1.12"
     },
 
     "require-dev": {
